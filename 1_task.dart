@@ -45,6 +45,18 @@ void main() {
   // Вивід результатів
   print('Можна зробити покупку: $canBuy');
   print('Потрібно почекати: $shouldWait');
+
+  // Завдання 4: Тернарний оператор
+
+  int temperature = 8;
+
+  // Перше визначення: тепло чи прохолодно
+  String weather = (temperature > 25) ? 'Тепло' : 'Прохолодно';
+  print(weather);
+
+  // Додатково: дуже холодно, якщо менше 10
+  String deepWeather = (temperature < 10) ? 'Дуже холодно' : weather;
+  print(deepWeather);
   
 }
 
