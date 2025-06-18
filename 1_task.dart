@@ -152,6 +152,19 @@ void main() {
     sum += i;
   }
   print('\nСума чисел від 1 до 10: $sum');
+
+  // Завдання 9: Цикл while
+
+  int number = 10;
+
+  while (number > 0) {
+    if (number % 2 == 0) {
+      print('Парне число: $number');
+    } else {
+      print('Непарне число: $number');
+    }
+    number--;
+  }
   
 }
 
