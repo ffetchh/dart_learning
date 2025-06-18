@@ -30,5 +30,21 @@ void main() {
   print('Число більше за 50: $isGreaterThan50');
   print('Число менше за 100: $isLessThan100');
   print('Число ділиться на 5 без залишку: $isDivisibleBy5');
+
+  // Завдання 3: Логічні оператори
+
+  bool hasMoney = true;
+  bool isStoreOpen = false;
+
+  // Перевірка: чи можна зробити покупку
+  bool canBuy = hasMoney && isStoreOpen;
+
+  // Перевірка: чи потрібно почекати
+  bool shouldWait = !hasMoney || !isStoreOpen;
+
+  // Вивід результатів
+  print('Можна зробити покупку: $canBuy');
+  print('Потрібно почекати: $shouldWait');
+  
 }
 
