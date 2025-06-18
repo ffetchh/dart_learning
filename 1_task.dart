@@ -57,6 +57,28 @@ void main() {
   // Додатково: дуже холодно, якщо менше 10
   String deepWeather = (temperature < 10) ? 'Дуже холодно' : weather;
   print(deepWeather);
+
+  // Завдання 5: Оператори присвоєння
+
+  int score = 0;
+  int correctAnswers = 17;
+  int mistakes = 3;
+  int totalQuestions = 20;
+
+  // +10 балів за кожну правильну відповідь
+  score += correctAnswers * 10;
+
+  // -5 балів за кожну помилку
+  score -= mistakes * 5;
+
+  // Збільшити у 2 рази
+  score *= 2;
+
+  // Поділити на кількість запитань
+  double finalScore = score / totalQuestions;
+
+  // Вивід результату
+  print('Остаточний результат: $finalScore');
   
 }
 
