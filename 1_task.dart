@@ -16,5 +16,19 @@ void main() {
   // 4) Повні квадрати 1x1
   int fullSquares = area ~/ 1;
   print('Кількість повних квадратів 1x1: $fullSquares');
+
+// Завдання 2: Оператори порівняння
+
+  int number = 75;
+
+  // Перевірки
+  bool isGreaterThan50 = number > 50;
+  bool isLessThan100 = number < 100;
+  bool isDivisibleBy5 = number % 5 == 0;
+
+  // Вивід результатів
+  print('Число більше за 50: $isGreaterThan50');
+  print('Число менше за 100: $isLessThan100');
+  print('Число ділиться на 5 без залишку: $isDivisibleBy5');
 }
 
